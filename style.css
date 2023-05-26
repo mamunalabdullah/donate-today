@@ -43,12 +43,12 @@ p{
     border-radius: 10px;
     background-color: #ff4d4d;   
 }
-.donate{
+.donate, .donate-plan{
     width: 45%;
     margin: 0 auto;
     margin-top: 100px;
 }
-.donate-text{
+.text{
     text-align: center;
 }
 .title{
@@ -78,4 +78,33 @@ p{
 input{
     border: none;
     padding: 20px;
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.card{
+    width: 30%;
+    padding: 5%;
+    background-color: #EEF6F7;
+    margin: 0 20px;
+}
+.card1{
+    background-color: #FFEFEF;
+}
+.card2{
+    background-color: #FFF4D6;
+}
+.icon img{
+    width: 50px;
+}
+.card-title{
+    margin: 10px 0;
+}
+.card-description{
+    color: #707070;
+    font-size: 16px;
 }
