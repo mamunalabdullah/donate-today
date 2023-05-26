@@ -2,6 +2,16 @@
     margin: 0;
     padding: 0;
 }
+img{
+    display: block;
+    width: 100%;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
 body{
     font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
@@ -26,10 +36,46 @@ h1{
 p{
     margin-bottom: 40px;
 }
-a{
-    text-decoration: none;
+.donate-btn{
+    margin-top: 40px;
     color: #fff;
     padding: 20px 40px;
     border-radius: 10px;
     background-color: #ff4d4d;   
+}
+.donate{
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+.donate-text{
+    text-align: center;
+}
+.title{
+    color: #121212;
+    font-size: 45px;
+}
+.donate-amount{
+    display: flex;
+    
+}
+.amount{
+    color: #707070;
+    background-color: #FAFAFA;
+    font-size: 30px;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+.amount:hover{
+    color: #FF5959;
+    background-color: #FFEEEE;
+    border: 1px solid #FF5959;
+}
+.others{
+    margin: 40px 0;
+}
+input{
+    border: none;
+    padding: 20px;
 }
