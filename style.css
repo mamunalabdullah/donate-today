@@ -84,7 +84,6 @@ input{
     justify-content: space-between;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 100px;
 }
 .card{
     width: 30%;
@@ -107,4 +106,14 @@ input{
 .card-description{
     color: #707070;
     font-size: 16px;
+}
+.post{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.post-text, .post-image{
+    width: 45%;
 }
