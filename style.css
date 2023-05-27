@@ -36,7 +36,7 @@ h1{
 p{
     margin-bottom: 40px;
 }
-.donate-btn{
+.donate-btn, .subscribe-btn{
     margin-top: 40px;
     color: #fff;
     padding: 20px 40px;
@@ -116,4 +116,25 @@ input{
 }
 .post-text, .post-image{
     width: 45%;
+}
+.update-form{
+    display: flex;
+    background-color: #FFF4D6;
+    padding: 50px 50px;
+}
+.email{
+    width: 60%;
+    border-radius: 10px;
+}
+.subscribe-btn{
+    width: 40%;
+    margin: 0;
+}
+
+footer{
+    text-align: center;
+    margin-top: 100px;
+    padding: 40px 0;
+    background-color: #0B0D17;
+    color: #EEF6F7;
 }
