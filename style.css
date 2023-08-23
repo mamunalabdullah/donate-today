@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 img{
     display: block;
@@ -12,14 +14,10 @@ li{
 a{
     text-decoration: none;
 }
-body{
-    font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-}
 
 .top-banner{
     height: 100vh;
-    background-image: url(images/donation10.jpg);
+    background-image: url(images/donation5.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -43,6 +41,8 @@ p{
     border-radius: 10px;
     background-color: #ff4d4d;   
 }
+
+
 .donate, .donate-plan{
     width: 45%;
     margin: 0 auto;
@@ -57,7 +57,7 @@ p{
 }
 .donate-amount{
     display: flex;
-    
+        
 }
 .amount{
     color: #707070;
@@ -90,6 +90,7 @@ input{
     padding: 5%;
     background-color: #EEF6F7;
     margin: 0 20px;
+    border-radius: 10px;
 }
 .card1{
     background-color: #FFEFEF;
@@ -119,16 +120,17 @@ input{
 }
 .update-form{
     display: flex;
+    justify-content: space-around;
     background-color: #FFF4D6;
-    padding: 50px 50px;
+    padding: 50px;
 }
-.email{
-    width: 60%;
+input[type="email"]{
+    width: 50%;
+    padding: 15px;
     border-radius: 10px;
 }
 .subscribe-btn{
     width: 40%;
-    margin: 0;
 }
 
 footer{
@@ -137,4 +139,114 @@ footer{
     padding: 40px 0;
     background-color: #0B0D17;
     color: #EEF6F7;
+}
+
+
+.hide{
+    display: none;
+}
+
+@media screen and (max-width: 576px){
+    .top-text{
+        width: 50%;
+    }
+    .banner-title, title{
+        font-size: 25px;
+    }
+    
+    .title{
+        font-size: 25px;
+    }
+    .donate, .donate-plan{
+        width: 50%;
+        margin-top: 50px;
+    }
+    .donate-amount{
+        flex-wrap: wrap;
+        gap: 10px;  
+        margin: 0 auto;
+    }
+    .amount{
+        font-size: 15px;
+        padding: 10px;
+    }
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .post{
+        flex-direction: column;
+        margin-top: 50px;
+        gap: 50px;
+    }
+    .post-text, .post-image{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .update-form{
+        padding: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .email{
+        width: 80%;
+        padding: 15px;
+    }
+    .subscribe-btn{
+        padding: 10px 15px;
+    }
+
+
+}
+@media screen and (min-width: 577px) and (max-width: 992px){
+    .top-text{
+        width: 70%;
+    }
+    .banner-title, title{
+        font-size: 25px;
+    }
+
+    .donate, .donate-plan{
+        width: 70%;
+    }
+    .donate-amount{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .amount{
+        font-size: 15px;
+        padding: 10px;
+        margin: 0 auto;
+    }
+
+    .cards{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .card{
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .post{
+        align-items: center;
+        margin-top: 50px;
+    }
+    .title{
+        font-size: 25px;
+    }
+    .post-text{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .post-image{
+        width: 40%;
+    }
+
 }
